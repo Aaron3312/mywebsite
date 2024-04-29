@@ -1,0 +1,112 @@
+.button1{
+        appearance: auto;
+        user-select: none;
+        align-items: flex-start;
+        text-align: center;
+        cursor: default;
+        box-sizing: border-box;
+        background-color: buttonface;
+        color: buttontext;
+        white-space: pre;
+        padding-block: 1px;
+        padding-inline: 6px;
+        border-width: 2px;
+        border-style: outset;
+        border-image: initial;
+        font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.blueGradient{
+    background: rgb(0,29,83);
+    background: linear-gradient(93deg, rgba(0,29,83,1) 0%, rgba(45,74,132,1) 56%, rgba(47,105,148,1) 100%);
+}
+.blackaccess{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.4rem;
+    color: #000000;
+    padding: 5px;
+    }
+.bgyellow1{
+    background-color: #ffff7f;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    text-align: flex-start;
+    font-style: bold;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+    }
+
+.bgwhite1{
+    background-color: #ffffff;
+    font-optical-sizing: auto;
+    font-family: "Jost", sans-serif;
+    font-style: bold;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    padding-bottom: 300px;
+
+}
+
+.colortxt2{
+    color: #1b3d62;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-style: bold;
+}
+.colorRedtxt2{
+    color: #c00000;
+    font-family: "verdana", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    font-style: normal;
+    padding-top: 10px;
+
+}
+
+@media (min-width: 1200px){
+    .bgyellow1{
+        width: 1450px !important;  /* Usando !important para garantizar la aplicación */
+        height: 35px;
+    }
+    .bgwhite1{
+        width: 1450px !important;  /* Usando !important para garantizar la aplicación */
+        height: 35px;
+    
+}
+}
+.bodyall{
+    background-color: e0e0e0;
+}
+
+
+.terms{
+    padding: 0;
+    margin: 0;
+}
+.buttonsend{
+    background-color: #1b3d62;
+    color: #ffffff;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

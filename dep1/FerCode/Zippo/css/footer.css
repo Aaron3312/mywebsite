@@ -1,0 +1,71 @@
+/*  footer styles */
+.footer{
+    background-color: #1b1b1b; /* Color de fondo */
+    color: #cbcbcb; /* Color del texto */
+    font-family: "ubuntu condensed", sans-serif; /* Fuente por defecto */
+    display: flex; /* This is a flexbox */
+    justify-content: space-around; /* Justify content */
+    align-items: center; /* Align items */
+    flex-direction: column; /* Flex direction */
+    height: 400px; /* Altura */
+    margin-top: -4px; /* Margen */
+}
+
+.footer > .logo img{
+    width: 100px;
+    height: 100%; 
+    opacity: 0.5; 
+}
+
+
+
+.footer > .social-media-icons-wrapper{
+    margin-top: 40px; /* Margen superior */
+    margin-bottom: 40px; /* Margen inferior */
+    width: 300px; /* Ancho */
+    display: flex; /* This is a flexbox */
+    justify-content: space-around; /* Justify content */
+}
+
+.fa-brands {
+    font-size: 1.5em; /* Tamaño del texto */
+    color: #cbcbcb; /* Color del texto */
+    transition: 0.5s; /* Transición */
+}
+
+
+
+.footer > .copyright-wrapper {
+    margin-bottom: 42px; /* Margen inferior */
+    font-size: .7em; /* Tamaño del texto */
+    color: #858585; /* Color del texto */
+}
+
+.bg-098{
+    background-color: #FFFF !important;
+}
+.encendedor{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row ;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.encendedor > .logo img{
+    width: 100px;
+    height: 100%; 
+    opacity: 0.5; 
+}
+
+.link-wrappers{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 10px;
+    font-size: 1rem;
+}
